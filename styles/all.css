@@ -1,0 +1,144 @@
+body {
+  width: auto;
+  margin: auto;
+  background-color:#992000;
+  background-image: url("../images/Apple-fruit.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  color: #ffcc00;
+  text-shadow: 1px 1px black;
+}
+/*Nav Bar*/
+nav ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #660033;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #ffcc00;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #800040;
+}
+
+nav{
+  text-align: center;
+  width: 100%;
+}
+/*End of Nav Bar*/
+
+h1{
+  padding-top: 50px;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  margin-left: 9.5%;
+  margin-right: 9.5%;
+  margin-bottom: 2%;
+  line-height: 145%;
+}
+
+h2{
+  text-align: center;
+}
+
+h3, .everything{
+  text-align: center;
+
+}
+
+/*index.html*/
+.intro p{
+  text-align: left;
+  text-indent: 15px;
+  font-size: 18px;
+}
+.pair p{
+  float: right;
+  text-indent: 15px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.ithApp{
+  float:right;
+  display: inline-block;
+  margin-left: 15px;
+  width: 225px;
+}
+
+/*map.html*/
+.map img{
+  width:50%;
+}
+
+.eventpar p, .map p {
+  text-align: center;
+  font-weight: bold;
+}
+
+/*calendar.html*/
+.saturday,.sunday {
+  float: left;
+  width: 50%;
+  text-align: left;
+  font-size: 18px;
+}
+
+.bern a{
+  color: #00b300;
+}
+
+.state a{
+  color: #ffff66;
+}
+
+/*video.html & gallery.html*/
+.vidList img{
+  overflow: auto;
+  width: 40%;
+  display:inline-block;
+}
+
+.gall,.vidList{
+  text-align: center;
+  padding: 12px 3px;
+}
+
+.gall img{
+  width:20%;
+  display: inline-block;
+  overflow:auto;
+}
+
+@media only screen and (max-width: 743px) {
+  .gall img{
+    width:55%;
+  }
+  .vidList img{
+    width: 55%;
+  }
+  .map.img {
+    width: 55%;
+  }
+}
